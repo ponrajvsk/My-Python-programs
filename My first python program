@@ -1,0 +1,16 @@
+#inputs
+nam=input("Please enter your name :")  #obtaining the user's name
+print("welcome...!to python learning..",nam)  #welcoming the learner 
+home=input("Could you please tell me your hometown :")  #obtaining the user's hometown 
+son=input("What songs do you like to listen....??? :")  #obtaining the user's intrest in hearing songs
+book=input("What kind of books you will read....???? :")  #obtaining the user's intrest in reading books 
+game=input("Can you please mention a game that you like to play :")  #obtaining the user's intrest in games
+fb=input("Are you intrested in using facebook....? :")   #obtaining the user's intrest in facebook
+per=input("Can i know your mark percentage in ug..? :")  #obtaining the user's percentage in ug
+
+#output
+d="{} you are from a nice city {}. Great, hearing {} songs will relax your mind. Reading {} books will help to develope your knowledge. Playing {} will help to maintain your health .You have {} intrest in facebook  and you have cleared your ug  degree with {}%"
+a=d.format(nam,home,son,book,game,fb,per) #using string formatting method
+print(a)   #printing the output       
+exit=input("please type EXIT to exit :")
+print(exit)
