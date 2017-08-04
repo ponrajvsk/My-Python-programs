@@ -1,0 +1,8 @@
+person = input("Could you please enter the number of persons :")
+cake = input("Now enter the number of cakes to be shared :")
+personcount = int(person)
+cakecount = int(cake)
+sharedcake = cakecount//personcount
+remainingcake = cakecount%personcount
+print("Each person will get", sharedcake, "number of cakes!!")
+print("The cakes remaining the sharing is :",remainingcake)
